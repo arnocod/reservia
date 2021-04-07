@@ -1,0 +1,29 @@
+/** Style général appliqué uniquement au support : mobile */
+
+/* Modification de l'ordre des éléments dans le container de l'entête */ 
+/* 1ère ligne : logo ; inscription */
+/* 2nde ligne : navigation */
+header > div {
+    order: 1;
+    width: 50%;
+}
+
+header > nav {
+    order: 3;
+    width: 100%;
+}
+
+header > a {
+    order: 2;
+    width: 50%;
+    text-align: right;
+}
+
+/* Ajout des bordures pour les liens de navigation */
+header > nav > a {
+    border-bottom: 2px solid #F2F2F2;
+}
+
+header > nav > a:hover {
+    border-bottom: 2px solid #0065FC;
+}

@@ -1,0 +1,29 @@
+/** Style général appliqué uniquement au support : tablette */
+
+/* Répartition des éléments dans le container de l'entête */ 
+/* log = 15 ; navigation = 70 ; inscription = 15 */
+header > div {
+    order: 1;
+    flex: 15 1 auto;
+}
+
+header > nav {
+    order: 2;
+    flex: 70 1 auto;
+}
+
+header > a {
+    order: 3;
+    flex: 15 1 auto;
+}
+
+/* Ajout des bordures pour les liens de navigation */
+header > nav > a {
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+header > nav > a:hover {
+    border-top: 2px solid #0065FC;
+    border-bottom: 2px solid #0065FC;
+}

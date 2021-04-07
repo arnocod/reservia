@@ -1,0 +1,27 @@
+/** Style général appliqué uniquement au support : écran */
+
+/* Répartition des éléments dans le container de l'entête */ 
+/* log = 60 ; navigation = 20 ; inscription = 20 */
+header > div {
+    order: 1;
+    flex: 60 1 auto;
+}
+
+header > nav {
+    order: 2;
+    flex: 20 0 auto;
+}
+
+header > a {
+    order: 3;
+    flex: 20 0 auto;
+}
+
+/* Ajout des bordures pour les liens de navigation */
+header > nav > a {
+    border-top: 2px solid #F2F2F2;
+}
+
+header > nav > a:hover {
+    border-top: 2px solid #0065FC;
+}
