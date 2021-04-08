@@ -9,6 +9,10 @@ body {
     padding: 1.5rem;
 }
 
+/* --------------------------------------------------------------------------- */
+/* header */
+/* --------------------------------------------------------------------------- */
+
 /* Conteneur flex pour l'entête */
 header {
     display: flex;
@@ -57,4 +61,53 @@ h1 {
     font-size: 1.5rem;
     line-height: 2.5rem;
     font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------- */
+/* searchbar */
+/* --------------------------------------------------------------------------- */
+
+/* Flexbox pour la barre de recherche */
+section.searchbar {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+/* Style pour le champ de recherche */
+section.searchbar > input {
+    font-weight: bold;
+    padding: 1em;
+    border: 1px solid #F2F2F2;
+}
+
+/* Style pour l'icone gauche : position */
+section.searchbar .position {
+    display: none;
+    padding: 1em;
+    color: black;
+    background-color: #F2F2F2;
+    border-radius: 1em 0em 0em 1em;
+}
+
+/* Style pour l'icone gauche : city */
+section.searchbar .city {
+    display: none;
+}
+
+/* Style pour le bouton droite : loupe */
+section.searchbar > button.magnifying-glass {
+    display: none;
+}
+
+/* Style pour le bouton droite : wind */
+section.searchbar > button.wind {
+    display: none;
+}
+
+/* Style pour le bouton droite : rechercher */
+section.searchbar > button.search {
+    display: none;
 }

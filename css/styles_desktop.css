@@ -1,5 +1,9 @@
 /** Style général appliqué uniquement au support : écran */
 
+/* --------------------------------------------------------------------------- */
+/* header */
+/* --------------------------------------------------------------------------- */
+
 /* Répartition des éléments dans le container de l'entête */ 
 /* log = 60 ; navigation = 20 ; inscription = 20 */
 header > div {
@@ -25,3 +29,26 @@ header > nav > a {
 header > nav > a:hover {
     border-top: 2px solid #0065FC;
 }
+
+/* --------------------------------------------------------------------------- */
+/* searchbar */
+/* --------------------------------------------------------------------------- */
+
+/* Style pour l'icone gauche : position */
+section.searchbar .position {
+    display: block;
+}
+
+/* Style pour le bouton droite : rechercher */
+section.searchbar > button.search {
+    display: block;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #0065FC;
+    background-color: #0065FC;
+    border-radius: 0px 1em 1em 0px;
+    margin-left: -10px; 
+    padding: 1em;
+    font-weight: bold;
+}
+
